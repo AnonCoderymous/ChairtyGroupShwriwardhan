@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Cabin', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+div.navbar {
+	background: orangered;
+	color: white;
+	font-size: 17px;
+	box-shadow: 1px 2px 1px 1.5px rgba(0, 0, 0, .2);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	-webkit-transition: .2s ease-out;
+	transition: .2s ease-out;
+}
+
+a:hover {
+	-webkit-transition: .2s ease-out;
+	transition: .2s ease-out;
+	color: gold;
+}
+
+ol {
+	list-style-type: none;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.divider {
+	position: relative;
+	top: 3rem;
+	text-align: center;
+	background: whitesmoke;
+	padding: 10px;
+	box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+	margin: .5rem 2rem .5rem 2rem;
+}
+
+ol li {
+	padding: 20px;
+}
+
+.image {
+	text-align: center;
+}
+
+.divider img {
+	width: 350px;
+}
+
+form label {
+	float: left;
+}
+
+form input {
+	margin-bottom: 1rem;
+	width: 100%;
+	border: none;
+	outline: 1px solid;
+	border-radius: 5px;
+	padding: 11px;
+}
+
+.fa-whatsapp {
+	color: green;
+	margin-right: .3rem;
+}
+
+@media only screen and (max-width: 991px) {
+	ol li {
+		padding: 10px;
+		font-size: 12px;
+	}
+}
